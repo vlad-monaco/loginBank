@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+h1{
+  color: #2fa2c3;
+  font-family: "Helvetica Neue";
+  font-size: 41px;
+  font-weight: 700;
+}
+.header-span{
+  color: #666666;
+  font-family: "Helvetica Neue";
+  font-size: 18px;
+  font-weight: 300;
+}
+.form-wrapper{
+  border: 1px solid rgba(153, 153, 153, 0.33);
+  width: 440px;
+  padding-bottom: 34px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  border-radius: 5.51px 5.51px 5.51px 5.51px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+}
+input{
+  width: 274px;
+  height: 40px;
+  border: 1px solid rgba(153, 153, 153, 0.28);
+  background-color: #ffffff;
+  margin: 0 auto;
+  margin-top: 34px;
+  border-radius: 5px 5px 5px 5px;
+  padding-left: 40px;
+}
+button{
+  width: 93px;
+  height: 40px;
+  background-color: #36a2c1;
+  color: white;
+  font-size: 18px;
+  font-family: "Helvetica Neue";
+  margin: 40px 0px 0px 70px;
+  letter-spacing: -0.18px;
+  border-color: #36a2c1;
+}
+.form-wrapper__paragraph{
+  color: #666666;
+  font-family: "Helvetica Neue";
+  font-size: 12px;
+  font-weight: 300;
+  margin: 20px 125px 0px 0px;
+  letter-spacing: -0.12px;
+}
+.form-wrapper__link{
+  color: #36a2c1;
+}
+.fa-user,.fa-lock{
+  color: grey;
+  position: relative;
+  left: 6%;
+  opacity: 0.5;
+  font-size: 15px;
+}
+input.error{
+  border: 1px solid red;
+}
+.error{
+  font-size: 12px;
+  color: red;
+}
+input.success{
+  border:1px solid green
+}
+.cross{
+  position: absolute;
+  bottom: 29px;
+  right: 0px;
+}
+.field-block{
+ position: relative
+}
+.fa-check,.fa-times{
+  display: inline-block;
+  position: absolute;
+  top: 46px;
+  right: 35px;
+  color: green;
+}
+.fa-times{
+  color: red;
+}
+.errorEmail-Text{
+  display: block;
+  margin-right: 52%;
+  margin-top: 5px;
+}
+.errorPassword-Text{
+  display: block;
+  margin-right: 49%;
+  margin-top: 5px;
+}
